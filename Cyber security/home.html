@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="font-family: 'Poppins', sans-serif;">
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgb(45, 45, 233)">
+        <img src="img/cyber_logo-removebg-preview (1).png" width="100" height="100">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tharani">
+            <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="container ">
+            <div class="justify-content-end ms-4 collapse navbar-collapse" id="tharani">
+              <ul class="navbar-nav fs-5">
+                <li class="nav-item"><a class="nav-link active " href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="course.html">Course</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+              </div>
+                <div class="justify-content-end  collapse navbar-collapse" id="tharani">
+                 <button  type="button" class="btn btn-light"><a class="text-decoration-none"style="color:black;" href="Register.html">Register</a></button>&nbsp;
+                 <button  type="button" class="btn btn-light"><a class="text-decoration-none"style="color:black;" href="loginpage.html">Login </a></button>&nbsp;
+
+                </div>
+        </div>
+    </nav>
+</header>
+<div id="carouselExampleCaptions" class="carousel slide" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/background.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption" style=" margin-bottom:10% ;">
+        <h1 class="animated bounceInRight fs-1" style="animation-delay: 0.1s;"> Cyber Security</h1>
+        <p class=" animated bounceInLeft d-none d-md-block fs-3" style="animation-delay: 1s" >Cybersecurity is the practice of protecting systems, networks, and data from digital attacks, unauthorized access, and damage.</p>
+        <button type="button" class="btn btn-primary animated bounceInRight"style="animation-delay: 2s">Learn More</button>
+      </div>
+    </div>
+    <style>
+      @media only screen and (max-width:768px) {
+        .carousel-caption{bottom: -45px;}}
+      @media only screen and (max-width:425px) {
+        .carousel-caption{bottom: -30px;}
+        .carousel-caption p{display: none;}}
+    </style>
+    <div class="carousel-item">
+      <img src="img/background33.jpg" class="d-block w-100 h-200" alt="...">
+      <div class="carousel-caption" style=" margin-bottom:10% ;">
+        <h1 class="animated bounceInRight fs-1" style="animation-delay: 0.1s;">Product Security Assurance </h1>
+        <p class=" animated bounceInLeft d-none d-md-block fs-3" style="animation-delay: 1s" >Investments in people, processes, and tools to drive the highest levels of security in our technology.</p>
+        <button type="button" class="btn btn-primary animated bounceInRight"style="animation-delay: 2s">Learn More</button>
+      </div>
+    </div>
+    <div class="carousel-item " >
+      <img src="img/bg3.jpg" class="d-block w-100 h-200" alt="...">
+      <div class="carousel-caption" style=" margin-bottom:10%;" >
+        <h1 class="animated bounceInRight fs-1" style="animation-delay: 0.1s;">Security from Beginning to End</h1>
+        <p class=" animated bounceInLeft d-none d-md-block fs-5" style="animation-delay: 1s" >The Intel Security Development Lifecycle (SDL) guides us in applying privacy and security practices across throughout the product lifecycle.</p>
+        <button type="button" class="btn btn-primary animated bounceInRight"style="animation-delay: 2s">Learn More</button>
+
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--6 img-->
+<div class="content" style="background-color: rgb(242, 207, 222);">
+  <div class="container">
+  <h1 class=" heading mb-4 pt-5" style="color: blue;">The Different Types of Cybersecurity</h1><br>
+    <div class="row">
+      <div class="col-sm-4 col-md-6 col-lg-4  p-3">
+        <div class="card h-100 ">
+        <img class="img-fluid rounded" src="img/net.jpg" width="450" height="180">
+        <div class="card-body ">
+        <h5>Network Security</h5>
+        <p class="text-start">Most attacks occur over the network, and network security solutions are designed to identify and block these attacks. </p>
+        <button type="button" class="btn btn-primary">Learn More </button>
+      </div></div>
+    </div>
+      <div class="col-sm-4 col-md-6 col-lg-4  p-3">
+        <div class="card h-100" style="cursor: pointer;">
+        <img  class="img-fluid rounded" src="img/cs.jpg"  width="450" height="180"> 
+        <div class="card-body">      
+        <h5>Cloud Security</h5>
+        <p >As organizations increasingly adopt cloud computing, securing the cloud becomes a major priority.</p>
+        <button type="button" class="btn btn-primary">Learn More </button>
+      </div></div></div>
+     <div class="col-sm-4 col-md-6 col-lg-4  p-3">
+      <div class="card h-100">
+      <img class="img-fluid rounded" src="img/end s.jpg"  width="450" height="200">
+      <div class="card-body">
+       <h5>Endpoint Security</h5>
+       <p>The zero-trust security model prescribes creating micro-segments around data wherever it may be.</p>
+       <button type="button" class="btn btn-primary">Learn More </button>
+      </div></div></div>
+     <div class="col-sm-4  col-md-6 col-lg-4  p-3">
+      <div class="card h-100">
+      <img class="img-fluid rounded" src="img/ms.jpg"  width="450" height="180">
+      <div class="card-body">
+       <h5>Mobile Security</h5>
+       <p>Most attacks occur over the network, and network security solutions are designed to identify and block these attacks.</p>
+       <button type="button" class="btn btn-primary mt-4">Learn More </button>
+      </div></div></div>
+     <div class="col-sm-4 col-md-6 col-lg-4  p-3">
+      <div class="card h-100">
+      <img class="img-fluid rounded" src="img/io.jpg"  width="450" height="180">
+      <div class="card-body">
+       <h5>IoT Security</h5>
+       <p>While using Internet of Things (IoT) devices certainly delivers productivity benefits, it also exposes organizations to new cyber threats.</p>
+       <button type="button" class="btn btn-primary">Learn More </button>
+      </div></div></div>
+     <div class="col-sm-4 col-md-6 col-lg-4   p-3">
+      <div class="card h-100 " >
+      <img class="img-fluid rounded" src="img/application sec.jpg"  width="450" height="180">
+      <div class="card-body">
+       <h5>Application Security</h5>
+       <p>Web applications, like anything else directly connected to the Internet, are targets for threat actors. </p>
+       <button  type="button" class="btn btn-primary mt-4">Learn More </button>
+      </div></div></div>
+      <style>
+        .card { transition:all 0.1s; }
+        .card:hover{transform: scale(1.1);}
+        .card:hover{background-color: rgb(192, 243, 186);}
+      </style>
+  </div>
+  </div>
+</div>
+
+<!--Cyper Crime video
+<div class="container1">
+  <video autoplay loop muted plays-inline class="background-clip">
+      <source src="img/video1.mp4" type="video/mp4">
+  </video>
+  <div class="content1">
+      <h1>Cyber Crime</h1>      
+  </div>
+</div>-->
+
+ <!--scrolling text-->
+<div class="content2"  style="background-image: url('img/man15.jpg');">
+    <h1 class="text-white p-4"> Cyber attack on August 26,2024</h1>
+    <div class="text" >
+      <marquee direction="left" scrollamount="19">
+      <div class="text-white "><h3 style="display: inline-block;">Microsoft patched six<br> actively exploited zero-day<br> vulnerabilities.</h3>
+       
+      </marquee>
+    </div>
+    <div class="text"">
+      <marquee direction="Right" scrollamount="20">
+      <div class="text-white "><h3>The Port of Seattle was hit<br> by a cyberattack causing<br> operational disruptions.
+      </h3>
+      </marquee>
+    </div>
+    <div class="text">
+      <marquee direction="Left" scrollamount="23">
+      <div class="text-white "><h3>A member of the Karakurt<br> cyber extortion gang was<br> charged in the U.S.</h3>
+      </marquee>
+    </div>
+    <div class="text">
+      <marquee direction="Right" scrollamount="28">
+      <div class="text-white "><h3>The American Radio Relay<br> League paid $1 million following<br> a ransomware attack.</h3>
+      </marquee>
+    </div>
+  </div>
+
+<!--model-->
+<div class="modal fade" id="joinas">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modar-header p-3">
+        <h5 class="modal-title" style="display: flex;">Join Course</h5>
+        <button type="button" class="btn-close"style="margin-left:75%;"  data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="mb-3">
+            <label for="name1" class="form-label">Name</label> 
+            <input id="name1" class="form-control" type="text" placeholder="Enter the name">
+          </div>
+          <div>
+            <label for="num" class="form-label">Mobile No</label> 
+            <input id="num" class="form-control" type="number" placeholder="91+">
+          </div>
+          <div>
+            <label for="mail" class="form-label" >Mail Id</label> 
+            <input id="mail" class="form-control" type="text" placeholder="Ex:Tharani01@gmail.com">
+          </div>
+          <div>
+            <label for="">Gender</label>
+            <select class="form-select" name="" id="">
+              <option selected>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button"class="btn btn-primary">Save</button>
+        <button type="button mt-1"class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--three box-->
+<div class="container-fluid bg-dark p-5">
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h1 class="text-white">About</h1>
+        <p class="text-white">Gain a heritage.Leave a legacy</p>
+        <button  type="button" class="btn btn-outline-secondary"><a class="text-secondary" style="text-decoration: none;" href="about.html">LEARN MORE</a></button>  
+      </div>
+      <div class="col-sm-4">
+        <h1 class="text-white">Service</h1>
+        <p class="text-white">Gain a heritage.Leave a legacy</p>
+       <button type="button"  class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#joinas" >JOIN US</button>
+      </div>
+      <div class="col-sm-4">
+        <h1 class="text-white">Contace Us</h1>
+      <p class="text-white">What can we help you achieve.</p>
+      <button type="button" class="btn btn-outline-secondary" >SPEAK WITH US</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<footer>
+  <div class="container-fluid p-3" style="background-color: blue;">
+    <div class="row">
+      <div class="col-sm-4">
+           <h1 class="text-white fs-5">© 2024 Cyber security</h1>
+      </div>
+      <div class="col-sm-4">
+           <h2 class="text-white fs-5 text-center ">Disclaimer privacy</h2>
+      </div>
+      <div class="col-sm-4">
+        <img  src="img/facebook-removebg-preview.png" style="width: 40%;height: 90%; margin-left: 60%;">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    font-family: 'poppins';
+}
+.container1{
+    width: 100%;
+     height: 100vh;
+     display: flex;
+     
+     align-items: center;
+     justify-content: center;
+}
+.content1{
+    text-align: center;
+}
+.content1 h1{
+
+    font-size: 95px;
+    color: #c31b1b;
+    margin-bottom: 50px;
+}
+.background-clip{
+  position: absolute;
+    right: 20%;
+    bottom: 10%;
+    object-fit: cover;
+    z-index: -5;
+}
